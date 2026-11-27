@@ -1,0 +1,472 @@
+{
+ "updated": "2026-11-27",
+ "note": "",
+ "items": [
+  {
+   "id": "ukraine",
+   "region": "Europe",
+   "cat": 1,
+   "lon": 37.8,
+   "lat": 48.3,
+   "since": "Feb 2022",
+   "parties": "Russia vs Ukraine",
+   "src": [
+    [
+     "ISW assessment, 12 Nov 2026",
+     "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-12-2026"
+    ],
+    [
+     "Al Jazeera, 13 Nov 2026",
+     "https://aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates"
+    ]
+   ],
+   "title": "Russia–Ukraine war",
+   "summary": "US–Ukraine–Russia talks in Abu Dhabi in November brought no breakthrough: Moscow still demands the parts of four Ukrainian regions it has not captured. Russia keeps up mass drone and missile strikes on Ukraine’s energy grid, while Ukraine strikes Russian oil refineries.",
+   "where": "Europe"
+  },
+  {
+   "id": "sudan",
+   "region": "Africa",
+   "cat": 1,
+   "lon": 29.6,
+   "lat": 13.2,
+   "since": "Apr 2023",
+   "parties": "Sudanese Armed Forces (SAF) vs Rapid Support Forces (RSF)",
+   "src": [
+    [
+     "The National, 18 Nov 2026",
+     "https://www.thenationalnews.com/news/mena/2026/11/18/al-burhans-forces-push-towards-rsf-stronghold-as-un-warns-of-sudan-drone-toll/"
+    ],
+    [
+     "Al Jazeera, 14 Nov 2026",
+     "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+    ]
+   ],
+   "title": "Sudan civil war",
+   "summary": "The army and allied groups retook more than 30 villages and towns in North and West Kordofan in early November. RSF drone strikes have hit power stations and fuel depots across the country. About 150,000 people have been killed and over 14 million displaced.",
+   "where": "Africa"
+  },
+  {
+   "id": "myanmar",
+   "region": "Asia",
+   "cat": 1,
+   "lon": 96.1,
+   "lat": 21.2,
+   "since": "Feb 2021 coup",
+   "parties": "Military government vs ethnic armed groups and pro-democracy resistance forces",
+   "src": [
+    [
+     "Khaosod English (AP), 10 Nov 2026",
+     "https://www.khaosodenglish.com/news/international/2026/11/10/myanmar-army-seizes-key-resistance-headquarters-and-10-bases-held-by-opposition-state-media-says/"
+    ],
+    [
+     "BNI Online, Nov 2026",
+     "https://www.bnionline.net/en/news/resistance-forces-intensify-attacks-directly-challenging-junta-offensives"
+    ],
+    [
+     "Al Jazeera explainer, Mar 2026",
+     "https://www.aljazeera.com/amp/features/2026/3/27/who-is-fighting-in-myanmars-multi-front-civil-war"
+    ]
+   ],
+   "title": "Myanmar civil war",
+   "summary": "The military has regained ground in 2026 and said on 10 November it had captured a resistance headquarters and ten bases in the south. Days later a coalition led by the Karen National Liberation Army took the Thai-border town of Mawdaung. ACLED estimates more than 96,000 deaths.",
+   "where": "Asia"
+  },
+  {
+   "id": "yemen",
+   "region": "Middle East",
+   "cat": 1,
+   "lon": 44.3,
+   "lat": 13.4,
+   "since": "2014; reignited Sep 2026",
+   "parties": "Houthis vs the internationally recognised government and the Saudi-led coalition",
+   "src": [
+    [
+     "Long War Journal, 16 Nov 2026",
+     "https://www.fdd.org/analysis/houthis-retake-bab-al-mandeb-and-move-toward-aden/"
+    ],
+    [
+     "Al Jazeera, 15 Nov 2026",
+     "https://www.aljazeera.com/amp/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh"
+    ]
+   ],
+   "title": "Yemen war",
+   "summary": "Full-scale fighting resumed in September. In mid-November the Houthis retook positions overlooking the Bab al-Mandeb strait and pushed along the southern coast towards Aden, while firing missiles and drones at Saudi Arabia almost daily. More than 340,000 people have been displaced since August.",
+   "where": "Middle East"
+  },
+  {
+   "id": "iran",
+   "region": "Middle East",
+   "cat": 2,
+   "lon": 53.5,
+   "lat": 32.4,
+   "since": "Feb 2026",
+   "parties": "United States and Israel vs Iran",
+   "src": [
+    [
+     "WION timeline, Apr 2026",
+     "https://www.wionews.com/photos/deadlines-destruction-and-diplomacy-a-timeline-of-us-israel-iran-war-1775649800942"
+    ],
+    [
+     "Iran International, 7 Nov 2026",
+     "https://www.iranintl.com/en/202611070633"
+    ],
+    [
+     "Al Jazeera live, 10 Nov 2026",
+     "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender"
+    ]
+   ],
+   "title": "US–Israel war with Iran",
+   "summary": "US and Israeli strikes began on 28 February 2026; a ceasefire was agreed on 8 April after 38 days, but no settlement followed. In November the US was enforcing a naval blockade and carried out limited strikes, and Iran said no talks were under way.",
+   "where": "Middle East"
+  },
+  {
+   "id": "gaza",
+   "region": "Middle East",
+   "cat": 2,
+   "lon": 34.4,
+   "lat": 31.4,
+   "since": "Oct 2023",
+   "parties": "Israel vs Hamas and other Palestinian armed groups",
+   "src": [
+    [
+     "Al Jazeera, 18 Nov 2026",
+     "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza"
+    ],
+    [
+     "Saudi Gazette, 18 Nov 2026",
+     "https://saudigazette.com.sa/article/666343/world/trumps-board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action"
+    ]
+   ],
+   "title": "Israel–Hamas war (Gaza)",
+   "summary": "An October 2025 ceasefire stopped major fighting but not deadly strikes. On 18 November 2026 Israeli forces began their first ground push into central Gaza since the truce, ordering residents to leave, and Trump’s Board of Peace warned the ceasefire could collapse.",
+   "where": "Middle East"
+  },
+  {
+   "id": "drc",
+   "region": "Africa",
+   "cat": 2,
+   "lon": 28.9,
+   "lat": -1.8,
+   "since": "2021 (M23 resurgence)",
+   "parties": "Congolese army and allied Wazalendo militias vs Rwanda-backed M23 and allies",
+   "src": [
+    [
+     "Al Jazeera, 18 Nov 2026",
+     "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east"
+    ],
+    [
+     "Africanews (AP), 3 Nov 2026",
+     "https://www.africanews.com/amp/2026/11/03/un-peacekeeping-head-meets-leaders-of-rebel-coalition-in-eastern-drc/"
+    ]
+   ],
+   "title": "Eastern DR Congo (M23)",
+   "summary": "Peace tracks in Washington and Doha continue, but fighting persists in North and South Kivu. In October M23 and allied groups formed a new coalition, the Front for the Refoundation of the Nation, led by former president Joseph Kabila.",
+   "where": "Africa"
+  },
+  {
+   "id": "ethiopia",
+   "region": "Africa",
+   "cat": 2,
+   "lon": 39.2,
+   "lat": 14.0,
+   "since": "2026 (renewed)",
+   "parties": "Ethiopian federal forces vs Tigrayan forces; Ethiopia–Eritrea confrontation",
+   "src": [
+    [
+     "Critical Threats, 17 Nov 2026",
+     "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-17-2026"
+    ],
+    [
+     "Al Jazeera, 9 Oct 2026",
+     "https://www.aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war"
+    ]
+   ],
+   "title": "Northern Ethiopia and Eritrea",
+   "summary": "War between the federal army and Tigrayan forces resumed in 2026. Ethiopia and Eritrea cut ties in October and accuse each other of aggression. Since 7 November there have been clashes near the Eritrean border around Rama, and Eritrea is reported to be mobilising.",
+   "where": "Africa"
+  },
+  {
+   "id": "mali",
+   "region": "Africa",
+   "cat": 2,
+   "lon": -3.0,
+   "lat": 15.6,
+   "since": "2012",
+   "parties": "Malian army and Russia’s Africa Corps vs JNIM (al-Qaeda affiliate), Tuareg separatists and Islamic State Sahel",
+   "src": [
+    [
+     "ICCT analysis, May 2026",
+     "https://icct.nl/index%2Ephp/publication/mali-what-were-reasons-and-consequences-25-april-attacks"
+    ],
+    [
+     "Modern Ghana, 3 Nov 2026",
+     "https://www.modernghana.com/news/1541551/jnim-claims-ied-attack-on-malian-army-and-africa.amp"
+    ]
+   ],
+   "title": "Mali insurgency",
+   "summary": "A joint offensive by JNIM and the Tuareg-led FLA in April 2026 retook the northern city of Kidal. JNIM keeps ambushing army and Africa Corps convoys, including a roadside-bomb attack near Sévaré on 2 November.",
+   "where": "Africa"
+  },
+  {
+   "id": "burkina",
+   "region": "Africa",
+   "cat": 2,
+   "lon": -1.4,
+   "lat": 13.4,
+   "since": "2015",
+   "parties": "Burkinabè army and volunteer militias vs JNIM and Islamic State Sahel",
+   "src": [
+    [
+     "AFP via Modern Ghana, 6 Nov 2026",
+     "https://www.modernghana.com/news/1542417/burkina-fasos-jihadist-battle-less-deadly-but.amp"
+    ],
+    [
+     "Human Rights Watch, 4 Nov 2026",
+     "https://www.hrw.org/news/2026/11/04/burkina-faso-islamist-armed-group-targets-civilians"
+    ]
+   ],
+   "title": "Burkina Faso insurgency",
+   "summary": "There has been no very large attack since late June, but analysts say attacks remain frequent. Human Rights Watch documented at least 27 civilians killed by JNIM in two attacks in Yatenga province in September.",
+   "where": "Africa"
+  },
+  {
+   "id": "nigeria",
+   "region": "Africa",
+   "cat": 2,
+   "lon": 13.2,
+   "lat": 11.6,
+   "since": "2009",
+   "parties": "Nigerian army vs Boko Haram and Islamic State West Africa Province; armed gangs in the northwest",
+   "src": [
+    [
+     "Africanews, 18 Oct 2026",
+     "https://www.africanews.com/2026/10/18/nigerias-army-chief-of-staff-visits-troops-in-borno-after-deaths-of-15-soliders/"
+    ],
+    [
+     "Sahara Reporters, 17 Nov 2026",
+     "https://saharareporters.com/2026/11/17/breaking-boko-haram-resumes-attacks-southern-borno-targets-nigerian-military-bases"
+    ]
+   ],
+   "title": "Nigeria insurgency",
+   "summary": "Jihadist groups keep attacking military bases in Borno state. ACLED recorded the second quarter of 2026 as Nigeria’s most violent period since it began tracking the country in 1997.",
+   "where": "Africa"
+  },
+  {
+   "id": "somalia",
+   "region": "Africa",
+   "cat": 2,
+   "lon": 44.6,
+   "lat": 2.6,
+   "since": "2006",
+   "parties": "Somali government, African Union force and US airstrikes vs al-Shabaab; regional rebels",
+   "src": [
+    [
+     "Critical Threats Africa File, 12 Nov 2026",
+     "https://www.criticalthreats.org/analysis/fgs-sfc-al-shabaab-somalia-sudan-saf-rsf"
+    ],
+    [
+     "DefconLevel (AFRICOM statement), 6 Nov 2026",
+     "https://www.defconlevel.com/alert/2026-11-06-u-s-africa-command-carries-out-strikes-on-al-shabaab-near-jamaame-somalia"
+    ]
+   ],
+   "title": "Somalia (al-Shabaab)",
+   "summary": "Al-Shabaab controls large rural areas of the centre and south, and US airstrikes continue, including near Jamaame on 5 November. A political crisis deepened after the Supreme Court ruled the president’s term extension unlawful.",
+   "where": "Africa"
+  },
+  {
+   "id": "southsudan",
+   "region": "Africa",
+   "cat": 2,
+   "lon": 31.6,
+   "lat": 7.6,
+   "since": "2013; renewed 2025",
+   "parties": "Government forces vs opposition SPLA-IO and allied militias; local armed groups",
+   "src": [
+    [
+     "Yeni Şafak (AFP), 8 Nov 2026",
+     "https://en.yenisafak.com/world/south-sudan-clashes-kill-23-ahead-of-december-elections-3725314"
+    ],
+    [
+     "Global Centre for R2P, 16 Nov 2026",
+     "https://globalr2p.org/countries/south-sudan"
+    ]
+   ],
+   "title": "South Sudan",
+   "summary": "Government–opposition fighting has escalated since late 2025, alongside deadly local clashes such as one in Ruweng that killed 23 on 8 November. Elections are scheduled for 22 December.",
+   "where": "Africa"
+  },
+  {
+   "id": "pakafg",
+   "region": "Asia",
+   "cat": 2,
+   "lon": 70.2,
+   "lat": 33.4,
+   "since": "Oct 2025 (escalation)",
+   "parties": "Pakistan vs the Taliban government; Pakistani Taliban (TTP) insurgency",
+   "src": [
+    [
+     "Long War Journal, 12 Nov 2026",
+     "https://www.fdd.org/analysis/taliban-pakistan-border-clashes-continue-ttp-attack-kills-10-pakistani-police/"
+    ]
+   ],
+   "title": "Pakistan–Afghanistan border conflict",
+   "summary": "Taliban and Pakistani forces have clashed repeatedly along the border since 29 October, and the TTP killed 10 Pakistani police on 11 November. Pakistan accuses Kabul of sheltering the TTP; Kabul denies it.",
+   "where": "Asia"
+  },
+  {
+   "id": "haiti",
+   "region": "Americas",
+   "cat": 2,
+   "lon": -72.3,
+   "lat": 18.6,
+   "since": "2021",
+   "parties": "Haitian police, UN-authorised Gang Suppression Force and Salvadoran troops vs armed gangs",
+   "src": [
+    [
+     "AP via WCAX, 19 Nov 2026",
+     "https://www.wcax.com/2026/11/19/heavy-fighting-erupts-haiti-armed-forces-fight-gangs-regain-control-key-corridor/"
+    ],
+    [
+     "UN via DevelopmentAid, 16 Nov 2026",
+     "https://www.developmentaid.org/amp/news-stream/post/214884/haiti-records-more-than-1000-killings-between-july-and-september-un-reports"
+    ]
+   ],
+   "title": "Haiti gang crisis",
+   "summary": "Gangs control most of Port-au-Prince. On 19 November security forces began an operation to retake the Martissant corridor, held by gangs for five years. The UN counted more than 1,000 killings between July and September.",
+   "where": "Americas"
+  },
+  {
+   "id": "lebanon",
+   "region": "Middle East",
+   "cat": 3,
+   "lon": 35.5,
+   "lat": 33.4,
+   "since": "Oct 2023; ceasefire Nov 2024",
+   "parties": "Israel vs Hezbollah",
+   "src": [
+    [
+     "Middle East Monitor, 19 Nov 2026",
+     "https://www.middleeastmonitor.com/?p=879512"
+    ],
+    [
+     "Shafaq News (IDF statement), 19 Nov 2026",
+     "https://shafaq.com/en/Middle-East/Israeli-airstrikes-hit-eastern-Lebanon"
+    ]
+   ],
+   "title": "Israel–Hezbollah (Lebanon)",
+   "summary": "Despite the November 2024 ceasefire, Israel keeps striking targets in southern and eastern Lebanon, including on 19 November, saying it is stopping Hezbollah from rearming. Days earlier it said it had hit a weapons shipment near the Syrian border.",
+   "where": "Middle East"
+  },
+  {
+   "id": "syria",
+   "region": "Middle East",
+   "cat": 3,
+   "lon": 36.2,
+   "lat": 33.0,
+   "since": "Dec 2024",
+   "parties": "Syrian government, local armed groups; Israeli forces in the south",
+   "src": [
+    [
+     "Shafaq News, Nov 2026",
+     "https://shafaq.com/en/Syria/Israeli-flares-gunfire-and-drones-over-Daraa-and-Quneitra"
+    ],
+    [
+     "The National, 17 Nov 2026",
+     "https://www.thenationalnews.com/news/mena/2026/11/17/syrians-flee-as-israeli-forces-raid-homes-and-shell-farmland-in-south/"
+    ]
+   ],
+   "title": "Syria (post-Assad instability)",
+   "summary": "Violence is far below civil-war levels, but Israeli incursions, raids and shelling in Quneitra and Daraa provinces rose to a 2026 high in October, according to a Syrian monitoring centre.",
+   "where": "Middle East"
+  },
+  {
+   "id": "mozambique",
+   "region": "Africa",
+   "cat": 3,
+   "lon": 40.3,
+   "lat": -12.2,
+   "since": "2017",
+   "parties": "Mozambican army and Rwandan troops vs Islamic State Mozambique",
+   "src": [
+    [
+     "ACLED report, Jun 2026",
+     "https://acleddata.com/report/preaching-coercion-and-sectarianism-how-islamic-state-building-stronghold-mozambique"
+    ],
+    [
+     "Africanews, 15 Aug 2026",
+     "https://www.africanews.com/2026/08/15/un-calls-for-negotiations-to-end-the-conflict-in-mozambique/"
+    ]
+   ],
+   "title": "Mozambique (Cabo Delgado)",
+   "summary": "Islamic State Mozambique is building an enclave along the Cabo Delgado coast and periodically raids gold-mining areas further south. Rwandan forces remain deployed, and a UN expert said a military victory is not in sight.",
+   "where": "Africa"
+  },
+  {
+   "id": "colombia",
+   "region": "Americas",
+   "cat": 3,
+   "lon": -72.9,
+   "lat": 8.6,
+   "since": "Post-2016 fragmentation",
+   "parties": "Colombian state vs ELN, FARC dissident factions and the Gulf Clan, who also fight each other",
+   "src": [
+    [
+     "Última Hora (AFP), 16 Nov 2026",
+     "https://www.ultimahora.com/ola-de-violencia-deja-100-muertos-en-colombia"
+    ],
+    [
+     "Human Rights Watch World Report 2026",
+     "https://www.hrw.org/world-report/2026/country-chapters/colombia"
+    ]
+   ],
+   "title": "Colombia armed groups",
+   "summary": "Armed groups have grown and fragmented since the 2016 peace deal. A new wave of violence in November forced residents of Tibú in the Catatumbo region to flee.",
+   "where": "Americas"
+  },
+  {
+   "id": "mexico",
+   "region": "Americas",
+   "cat": 3,
+   "lon": -103.3,
+   "lat": 20.7,
+   "since": "2006",
+   "parties": "Mexican security forces vs drug cartels such as CJNG, and cartels vs each other",
+   "src": [
+    [
+     "PBS (AP), 23 Feb 2026",
+     "https://www.pbs.org/newshour/world/many-in-mexico-fear-more-violence-after-army-kills-cartel-leader-el-mencho"
+    ],
+    [
+     "Rio Times, 6 Nov 2026",
+     "https://www.riotimesonline.com/the-big-read-mexico-6-november-2026/"
+    ]
+   ],
+   "title": "Mexico cartel violence",
+   "summary": "The army’s killing of CJNG leader “El Mencho” in February 2026 set off reprisal attacks that killed 25 National Guard members. Raids continue; forces killed another cartel boss near Mexico City on 5 November.",
+   "where": "Americas"
+  },
+  {
+   "id": "venezuela",
+   "region": "Americas",
+   "cat": 3,
+   "lon": -69.0,
+   "lat": 7.4,
+   "since": "Jan 2026",
+   "parties": "United States and Venezuela’s interim authorities vs armed groups such as the ELN",
+   "src": [
+    [
+     "AP, 18 Nov 2026",
+     "https://www.actionnewsjax.com/news/politics/hegseth-is-venezuela/BXYTOHGKTY3DLOMOHNURYQCEWM/"
+    ],
+    [
+     "Reuters via Daily Maverick, 19 Nov 2026",
+     "https://www.dailymaverick.co.za/article/2026-11-19-hegseth-in-caracas-announces-us-venezuela-military-partnership-agreement/"
+    ]
+   ],
+   "title": "US military operations in Venezuela",
+   "summary": "After US forces seized Nicolás Maduro in Caracas in January, US drones reportedly took part in a strike on an ELN camp in Apure state in early November. On 18 November the two governments signed a military cooperation deal.",
+   "where": "Americas"
+  }
+ ]
+}

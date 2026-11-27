@@ -1,0 +1,171 @@
+{
+ "updated": "2026-11-27",
+ "note": "",
+ "items": [
+  {
+   "id": "us-cn-tariffs",
+   "title": "US and China extend their tariff truce",
+   "type": "tariffs",
+   "region": "Global",
+   "where": "United States – China",
+   "lon": -98.5,
+   "lat": 39.5,
+   "date": "2026-11-10",
+   "summary": "The US kept its suspension of higher “reciprocal” tariffs on Chinese goods, leaving the rate at 10%, and excluded some products from other China tariffs. China in turn agreed to drop retaliatory measures and lift sanctions on shipping firms.",
+   "src": [
+    [
+     "Sandler, Travis & Rosenberg, Nov 2026",
+     "https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/november/u-s-to-ease-tariffs-ship-fees-export-restrictions-on-china"
+    ],
+    [
+     "TASS, 6 Nov 2026",
+     "https://tass.com/world/2040161"
+    ]
+   ],
+   "to": [
+    116.4,
+    39.9
+   ],
+   "toName": "China"
+  },
+  {
+   "id": "us-ru-waiver",
+   "title": "US waives new Russia sanctions and tariffs",
+   "type": "sanctions",
+   "region": "Global",
+   "where": "United States – Russia",
+   "lon": -98.5,
+   "lat": 39.5,
+   "date": "2026-11-06",
+   "summary": "President Trump waived the trade measures in a new Russia sanctions law days before they took effect, including duties on Russian goods and penalties for buying Russian oil and gas, after a separate diesel deal with Moscow.",
+   "src": [
+    [
+     "Express Tribune (Reuters), 7 Nov 2026",
+     "https://tribune.com.pk/story/2635364/trump-waives-key-russia-related-sanctions-tariffs-before-they-take-effect-under-new-law"
+    ],
+    [
+     "Global Trade Alert, Oct 2026",
+     "https://globaltradealert.org/blog/gta-monthly-roundup-October-2026"
+    ]
+   ],
+   "to": [
+    37.6,
+    55.75
+   ],
+   "toName": "Russia"
+  },
+  {
+   "id": "ca-eu-alliance",
+   "title": "Canada and EU launch “Alliance for the Future”",
+   "type": "partnership",
+   "region": "Global",
+   "where": "Canada – European Union",
+   "lon": -75.7,
+   "lat": 45.4,
+   "date": "2026-11-03",
+   "summary": "Canada and the EU announced more than 20 measures, including talks on a digital trade agreement and European Investment Bank funding for Canadian critical-minerals projects.",
+   "src": [
+    [
+     "Investment Monitor, 3 Nov 2026",
+     "https://www.investmentmonitor.ai/newsletters/canada-eu-alliance-for-the-future-partnership/"
+    ]
+   ],
+   "to": [
+    4.35,
+    50.85
+   ],
+   "toName": "European Union"
+  },
+  {
+   "id": "eu-mercosur",
+   "title": "EU–Mercosur free trade agreement",
+   "type": "trade-deal",
+   "region": "Global",
+   "where": "EU – Argentina, Bolivia, Brazil, Paraguay, Uruguay",
+   "lon": 4.35,
+   "lat": 50.85,
+   "date": "2026-01-17",
+   "summary": "Signed in January after 25 years of talks, the deal covers about 700 million people and removes tariffs on more than 90% of trade between the blocs. It is expected to take effect by the end of 2026, pending ratification.",
+   "src": [
+    [
+     "Brussels Times",
+     "https://www.brusselstimes.com/1926370/eu-mercosur-create-free-trade-area-of-700-million-people"
+    ],
+    [
+     "Al Jazeera, 17 Jan 2026",
+     "https://www.aljazeera.com/news/2026/1/17/eu-mercosur-bloc-sign-free-trade-deal-after-25-years-of-negotiations"
+    ]
+   ],
+   "to": [
+    -57.6,
+    -25.3
+   ],
+   "toName": "Mercosur"
+  },
+  {
+   "id": "eu-au-fta",
+   "title": "EU–Australia free trade agreement",
+   "type": "trade-deal",
+   "region": "Global",
+   "where": "European Union – Australia",
+   "lon": 4.35,
+   "lat": 50.85,
+   "date": "2026-03-24",
+   "summary": "After eight years of talks, the EU and Australia signed a deal removing tariffs on almost all European goods and nearly all Australian critical-mineral exports, alongside a security and defence pact.",
+   "src": [
+    [
+     "bdnews24 (Reuters)",
+     "https://bdnews24.com/business/3db07587ac2d"
+    ]
+   ],
+   "to": [
+    149.1,
+    -35.3
+   ],
+   "toName": "Australia"
+  },
+  {
+   "id": "us-ve-oil",
+   "title": "US takes control of some Venezuelan oil reserves",
+   "type": "energy",
+   "region": "Global",
+   "where": "United States – Venezuela",
+   "lon": -98.5,
+   "lat": 39.5,
+   "date": "2026-08-01",
+   "summary": "In August President Trump announced a deal giving the US control of some Venezuelan oil reserves; in November the two governments added a military cooperation agreement.",
+   "src": [
+    [
+     "RealClearDefense (AP), 19 Nov 2026",
+     "https://www.realcleardefense.com/pentagon/articles/us-and-venezuela-sign-a-deal-to-reestablish-military-ties-2026-11-19"
+    ]
+   ],
+   "to": [
+    -66.9,
+    10.5
+   ],
+   "toName": "Venezuela"
+  },
+  {
+   "id": "hormuz",
+   "title": "Iran war, US blockade and energy prices",
+   "type": "energy",
+   "region": "Global",
+   "where": "Strait of Hormuz",
+   "lon": 56.3,
+   "lat": 26.6,
+   "date": "2026-11-07",
+   "summary": "The US is enforcing a naval blockade of Iran, and attacks on ships near the Strait of Hormuz continue. The war has driven up fuel prices worldwide, a major issue for voters in several countries.",
+   "src": [
+    [
+     "Iran International, 7 Nov 2026",
+     "https://www.iranintl.com/en/202611070633"
+    ],
+    [
+     "AP via WCAX, 4 Nov 2026",
+     "https://www.wcax.com/2026/11/04/world-leaders-who-sparred-with-trump-express-relief-mixed-with-caution-republican-election-rout/"
+    ]
+   ]
+  }
+ ]
+}

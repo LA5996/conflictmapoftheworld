@@ -1,0 +1,105 @@
+/*
+VOICE: a sober atlas from a newspaper graphics desk: factual, calm, nothing sensational.
+IDEA: a printed world atlas plate with an index beneath it, one plate per topic.
+PICTURE: a large world map; markers coloured by type, trade ties drawn as arcs.
+COLOUR and TYPE: pale sea, warm grey land, one colour set per tab; system sans (no third-party fonts, for privacy).
+LAYOUT: brand row, tabs, map + detail panel, filters, index table, footer with methods.
+*/
+:root{color-scheme:light dark;
+--bg:light-dark(#fbfbf9,#111413);--ink:light-dark(#1b1d1c,#e9ebe8);--mute:light-dark(#5a5f5c,#9ea5a0);
+--sea:light-dark(#e6eef0,#16201f);--land:light-dark(#d9d6cc,#2c332f);--edge:light-dark(#fbfbf9,#111413);
+--rule:light-dark(#dcdcd6,#2b302d);--card:light-dark(#ffffff,#181c1a);--hover:light-dark(#f2f2ee,#1b201e);--sel:light-dark(#ecebe3,#222824);
+--focus:light-dark(#1d5fd1,#7fb0ff);--grat:light-dark(#d3dee1,#1f2b2a)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-padding-top:16px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;overflow-x:clip}
+h1,h2,h3{margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(30px,4.2vw,46px);line-height:1.05;font-weight:800}
+h2{font-size:24px;line-height:1.15;font-weight:800}
+h3{font-size:20px;line-height:1.2;font-weight:750}
+a{color:inherit;text-underline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--card);padding:8px 12px;border-radius:8px}
+.skip:focus{left:8px}
+.band{padding:clamp(18px,3vw,36px) max(4vw,16px)}
+.wrap{max-width:1320px;margin:0 auto}
+.head{padding-bottom:0}
+.top{display:flex;flex-wrap:wrap;gap:12px 40px;align-items:end;justify-content:space-between}
+.brand{margin:0 0 6px;font-weight:700;font-size:15px}
+.brand a{text-decoration:none}
+.lede{max-width:64ch;color:var(--mute);margin:10px 0 0}
+.updated{text-align:right}
+.updated span{display:block;font-size:13px;color:var(--mute)}
+.updated b{font-size:20px}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin-top:20px;border-bottom:1px solid var(--rule);scrollbar-width:thin}
+.tabs a{flex:none;display:flex;align-items:center;min-height:46px;padding:0 14px;text-decoration:none;font-weight:600;font-size:15px;color:var(--mute);border-bottom:3px solid transparent;margin-bottom:-1px}
+.tabs a[aria-current=page]{color:var(--ink);border-bottom-color:var(--ink)}
+.tabs a:hover{color:var(--ink)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:20px}
+.mapbox{background:var(--sea);border-radius:14px;position:relative;overflow:hidden}
+.fig{position:relative;aspect-ratio:1.9/1;min-height:240px}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
+.fig>svg:active{cursor:grabbing}
+.sphere{fill:var(--sea)}
+.grat{fill:none;stroke:var(--grat);stroke-width:.6;vector-effect:non-scaling-stroke}
+.land{fill:var(--land);stroke:var(--edge);stroke-width:.5;vector-effect:non-scaling-stroke}
+.arc{fill:none;stroke-width:2;stroke-linecap:round;opacity:.75;vector-effect:non-scaling-stroke;pointer-events:none}
+.arc.sel{stroke-width:3.5;opacity:1}
+.mk{cursor:pointer;stroke:var(--card);outline:none}
+.mk.sel{stroke:var(--ink)}
+.mk:focus-visible{stroke:var(--focus)}
+.qk{cursor:pointer;fill-opacity:.18;outline:none}
+.qk.sel{fill-opacity:.5}
+.end{pointer-events:none;stroke:var(--card)}
+.halo{fill:none;opacity:.5;pointer-events:none;animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{transform:scale(1);opacity:.55}100%{transform:scale(2.6);opacity:0}}
+@media (prefers-reduced-motion:reduce){.halo{animation:none;opacity:0}}
+.tip{position:absolute;pointer-events:none;background:var(--card);color:var(--ink);border:1px solid var(--rule);border-radius:8px;padding:6px 10px;font-size:13px;font-weight:600;white-space:nowrap;transform:translate(-50%,-130%);display:none;box-shadow:0 4px 14px rgb(0 0 0/.12)}
+.zoom{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.zoom button,.chip{font:inherit;font-size:15px;min-height:44px;min-width:44px;border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:10px;cursor:pointer}
+.zoom button{font-size:20px;font-weight:600;line-height:1}
+.zoom .zr{font-size:14px}
+button:focus-visible,input:focus-visible,tr:focus-visible,a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.legend{position:absolute;left:12px;bottom:10px;background:color-mix(in srgb,var(--card) 88%,transparent);border-radius:10px;padding:8px 12px;font-size:13px;display:flex;gap:6px 14px;flex-wrap:wrap;max-width:calc(100% - 80px)}
+.legend span{display:flex;gap:6px;align-items:center}
+.dot{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
+.ring{width:11px;height:11px;border-radius:50%;flex:none;display:inline-block;border:2px solid currentColor}
+.status{position:absolute;inset:auto 0 50% 0;text-align:center;color:var(--mute);font-size:14px;pointer-events:none;padding:0 20px}
+.panel{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:12px;align-self:start}
+.panel p{margin:0}
+.tag{display:inline-flex;gap:6px;align-items:center;font-size:13px;font-weight:600;padding:4px 10px;border-radius:99px;border:1px solid var(--rule);width:max-content;max-width:100%}
+.facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;font-size:14px;margin:0}
+.facts dt{color:var(--mute)}.facts dd{margin:0}
+.src{font-size:14px;margin:0;padding-left:18px}
+.src li{margin:2px 0}
+.small{font-size:13px;color:var(--mute)}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:0 14px;display:inline-flex;gap:8px;align-items:center}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.search{flex:1 1 220px;max-width:340px;font:inherit;font-size:16px;min-height:44px;padding:0 14px;border:1px solid var(--rule);border-radius:10px;background:var(--card);color:var(--ink)}
+.listsec{margin-top:34px}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:15px}
+th{text-align:left;font-size:13px;color:var(--mute);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--rule)}
+td{padding:12px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--hover)}
+tbody tr.sel{background:var(--sel)}
+td.nm{font-weight:600}
+td.nw{white-space:nowrap}
+.empty{color:var(--mute);padding:20px 10px}
+.live{margin-top:34px}
+.quakes{list-style:none;padding:0;margin:12px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.quakes li{border:1px solid var(--rule);border-radius:10px;background:var(--card)}
+.quakes button{all:unset;box-sizing:border-box;display:flex;gap:12px;align-items:center;width:100%;padding:10px 12px;cursor:pointer;min-height:44px}
+.quakes button:focus-visible{outline:3px solid var(--focus)}
+.mag{font-weight:800;font-size:18px;min-width:3ch;text-align:right;font-variant-numeric:tabular-nums}
+.foot{border-top:1px solid var(--rule);margin-top:20px}
+.footgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.footgrid p{margin:8px 0 0;color:var(--mute);font-size:15px;max-width:60ch}
+.doc{max-width:760px}
+.doc h2{margin-top:32px}
+.doc p,.doc li{max-width:70ch}
+@media(max-width:960px){.grid{grid-template-columns:minmax(0,1fr)}.updated{text-align:left}}
+@media(max-width:600px){.fig{aspect-ratio:1.4/1}.legend{position:static;border-radius:0;max-width:none;font-size:12px;gap:6px 12px}
+table{font-size:13px}.stack thead{display:none}.stack tr{display:grid;padding-block:10px;border-bottom:1px solid var(--rule)}.stack td{display:flow-root;border:0;padding:3px 0;padding-inline-start:6.5em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:6em;margin-inline-start:-6.5em;white-space:normal;color:var(--mute)}.stack td:empty{display:none}}

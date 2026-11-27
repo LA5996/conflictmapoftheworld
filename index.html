@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://earthquake.usgs.gov https://cdn.jsdelivr.net; img-src 'self' data:; style-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Conflict Map of the World</title>
+<meta name="description" content="A free, sourced world map of armed conflicts, violence, natural disasters, political changes and economic ties. Updated daily.">
+<meta property="og:title" content="Conflict Map of the World">
+<meta property="og:description" content="Free, sourced, updated daily: conflicts, violence, disasters, politics and economic ties on one world map.">
+<meta property="og:url" content="https://conflictmapoftheworld.com/">
+<link rel="canonical" href="https://conflictmapoftheworld.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="band head">
+  <div class="wrap top">
+    <div>
+      <p class="brand"><a href="./">Conflict Map of the World</a></p>
+      <h1 id="title">Armed conflicts around the world</h1>
+      <p class="lede" id="intro"></p>
+    </div>
+    <div class="updated"><span>Last updated</span><b id="updated">…</b></div>
+  </div>
+  <nav class="wrap tabs" aria-label="Sections" id="tabs"></nav>
+</header>
+
+<main id="main" class="band">
+  <div class="wrap grid">
+    <div>
+      <div class="mapbox">
+        <div class="fig" id="fig"><svg id="map" role="img" aria-label="World map"></svg></div>
+        <div class="tip" id="tip"></div>
+        <div class="status" id="status">Loading map…</div>
+        <div class="zoom">
+          <button id="zin" aria-label="Zoom in">+</button>
+          <button id="zout" aria-label="Zoom out">−</button>
+          <button id="zreset" aria-label="Reset view" class="zr">⟲</button>
+        </div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="controls">
+        <div id="chips" class="chips"></div>
+        <input class="search" id="q" type="search" placeholder="Search a country, group or topic" aria-label="Search">
+      </div>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+
+  <section class="wrap listsec">
+    <h2 id="listTitle">Index</h2>
+    <table class="stack" id="tbl">
+      <thead><tr><th>Item</th><th>Where</th><th>Type</th><th>Date</th><th>Summary</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div id="live" class="live" hidden>
+      <h2>Live earthquakes, past 7 days</h2>
+      <p class="small">Magnitude 5.5 and stronger, straight from the US Geological Survey. Refreshes each time the page loads.</p>
+      <ul id="quakes" class="quakes"></ul>
+    </div>
+  </section>
+</main>
+
+<footer class="band foot">
+  <div class="wrap footgrid">
+    <div><h3>How this works</h3><p>Each entry is written from reports by news agencies, UN bodies and conflict monitors, with links so you can check it. The site is updated every morning with AI assistance and reviewed by its editor. Markers show the main area concerned, not exact locations.</p></div>
+    <div><h3>Spotted a mistake?</h3><p>Corrections are welcome and fixed quickly. <a href="https://github.com/LA5996/conflictmapoftheworld/issues/new" rel="noopener">Report it here</a> with the entry and a source.</p></div>
+    <div><h3>More</h3><p><a href="about.html">About and methods</a> · <a href="privacy.html">Privacy</a></p><p class="small">No ads, no tracking cookies. Borders are shown for orientation only and imply no position on disputed territory.</p></div>
+  </div>
+</footer>
+<script src="assets/d3.min.js"></script>
+<script src="assets/topojson-client.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

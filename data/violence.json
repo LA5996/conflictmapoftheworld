@@ -1,0 +1,142 @@
+{
+ "updated": "2026-11-27",
+ "note": "",
+ "items": [
+  {
+   "id": "ukr-komyshuvakha",
+   "title": "Russian bombs hit food bank and shelter",
+   "type": "attack",
+   "region": "Europe",
+   "where": "Komyshuvakha, Zaporizhzhia region, Ukraine",
+   "lon": 35.55,
+   "lat": 47.65,
+   "date": "2026-11-02",
+   "summary": "Russian forces dropped heavy glide bombs on a food bank and a shelter used by civilians in the Zaporizhzhia region. EUobserver called it the deadliest attack on civilians in terms of casualties since at least 2023.",
+   "src": [
+    [
+     "EUobserver, Nov 2026",
+     "https://euobserver.com/247163/details-emerge-of-russian-atrocity-dropping-three-tonne-bombs-on-civilians-at-food-bank-and-shelter-ukraine-battlefield-update-day-1715/"
+    ]
+   ]
+  },
+  {
+   "id": "sdn-drones",
+   "title": "RSF drone campaign against power stations",
+   "type": "attack",
+   "region": "Africa",
+   "where": "Across 11 states, Sudan",
+   "lon": 32.5,
+   "lat": 15.6,
+   "date": "2026-11-04",
+   "summary": "A UN report documented 29 drone strikes attributed to the RSF on electricity facilities and fuel stations in 11 Sudanese states between 20 October and 4 November, causing widespread blackouts.",
+   "src": [
+    [
+     "The National, 18 Nov 2026",
+     "https://www.thenationalnews.com/news/mena/2026/11/18/al-burhans-forces-push-towards-rsf-stronghold-as-un-warns-of-sudan-drone-toll/"
+    ]
+   ]
+  },
+  {
+   "id": "nga-gwoza",
+   "title": "Boko Haram attacks army in southern Borno",
+   "type": "insurgent",
+   "region": "Africa",
+   "where": "Gwoza, Borno State, Nigeria",
+   "lon": 13.69,
+   "lat": 11.08,
+   "date": "2026-11-17",
+   "summary": "Boko Haram fighters attacked along the Yamtake road in Gwoza local government area, part of a renewed wave of assaults on military positions in southern Borno.",
+   "src": [
+    [
+     "Sahara Reporters, 17 Nov 2026",
+     "https://saharareporters.com/2026/11/17/breaking-boko-haram-resumes-attacks-southern-borno-targets-nigerian-military-bases"
+    ]
+   ]
+  },
+  {
+   "id": "pak-police",
+   "title": "Pakistani Taliban attack kills 10 police",
+   "type": "insurgent",
+   "region": "Asia",
+   "where": "Khyber Pakhtunkhwa, Pakistan",
+   "lon": 71.5,
+   "lat": 33.0,
+   "date": "2026-11-11",
+   "summary": "The Pakistani Taliban (TTP) claimed an attack that killed 10 policemen, amid repeated clashes between Pakistani and Afghan Taliban forces on the border.",
+   "src": [
+    [
+     "Long War Journal, 12 Nov 2026",
+     "https://www.fdd.org/analysis/taliban-pakistan-border-clashes-continue-ttp-attack-kills-10-pakistani-police/"
+    ]
+   ]
+  },
+  {
+   "id": "moz-mueda",
+   "title": "Insurgent attacks kill at least 19 in Cabo Delgado",
+   "type": "insurgent",
+   "region": "Africa",
+   "where": "Mueda and Muidumbe districts, Mozambique",
+   "lon": 39.7,
+   "lat": -11.65,
+   "date": "2026-10-31",
+   "summary": "At least 19 people were killed in attacks on villages straddling the Mueda and Muidumbe districts between 21 and 31 October, according to ACLED.",
+   "src": [
+    [
+     "Rio Times (ACLED data), 9 Nov 2026",
+     "https://www.riotimesonline.com/mozambique-cabo-delgado-19-killed-mueda-muidumbe/"
+    ]
+   ]
+  },
+  {
+   "id": "ssd-tonj",
+   "title": "Revenge attack kills 17 in Warrap State",
+   "type": "communal",
+   "region": "Africa",
+   "where": "Tonj East, Warrap State, South Sudan",
+   "lon": 29.1,
+   "lat": 7.4,
+   "date": "2026-11-17",
+   "summary": "A local official said 17 people were killed and 23 wounded in the latest revenge attack in Tonj East county, ahead of national elections set for 22 December.",
+   "src": [
+    [
+     "EWN (AFP), 17 Nov 2026",
+     "https://www.ewn.co.za/2026/11/17/17-killed-in-south-sudan-revenge-attack"
+    ]
+   ]
+  },
+  {
+   "id": "col-tibu",
+   "title": "Wave of violence in Catatumbo",
+   "type": "criminal",
+   "region": "Americas",
+   "where": "Tibú, Norte de Santander, Colombia",
+   "lon": -72.73,
+   "lat": 8.64,
+   "date": "2026-11-16",
+   "summary": "Clashes between armed groups set off a new wave of violence in the Catatumbo region, forcing residents of Tibú to flee. AFP reported about 100 deaths in the latest surge.",
+   "src": [
+    [
+     "Última Hora (AFP), 16 Nov 2026",
+     "https://www.ultimahora.com/ola-de-violencia-deja-100-muertos-en-colombia"
+    ]
+   ]
+  },
+  {
+   "id": "mex-general",
+   "title": "Security forces kill cartel boss near Mexico City",
+   "type": "criminal",
+   "region": "Americas",
+   "where": "Naucalpan, State of Mexico",
+   "lon": -99.24,
+   "lat": 19.48,
+   "date": "2026-11-05",
+   "summary": "Federal forces killed the alleged leader of a criminal group, known as “El General”, in a shootout in Naucalpan. Officials reported 32 arrests in 38 raids the same day.",
+   "src": [
+    [
+     "Rio Times, 6 Nov 2026",
+     "https://www.riotimesonline.com/the-big-read-mexico-6-november-2026/"
+    ]
+   ]
+  }
+ ]
+}

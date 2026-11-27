@@ -1,0 +1,137 @@
+{
+ "updated": "2026-11-27",
+ "note": "",
+ "items": [
+  {
+   "id": "usa-midterms",
+   "title": "Democrats win US midterm elections",
+   "type": "election",
+   "region": "Americas",
+   "where": "United States",
+   "lon": -98.5,
+   "lat": 39.5,
+   "date": "2026-11-03",
+   "summary": "Democrats won control of Congress in the 3 November midterms. World leaders reacted cautiously; President Trump said he would work with Democrats but also use his veto.",
+   "src": [
+    [
+     "Al Jazeera, 4 Nov 2026",
+     "https://aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results"
+    ],
+    [
+     "NPR via KPBS, 5 Nov 2026",
+     "https://www.kpbs.org/news/international/2026/11/04/the-world-is-reacting-to-the-democrats-sweeping-midterm-elections-victory"
+    ]
+   ]
+  },
+  {
+   "id": "isr-election",
+   "title": "Inconclusive Israeli election",
+   "type": "election",
+   "region": "Middle East",
+   "where": "Israel",
+   "lon": 34.9,
+   "lat": 31.8,
+   "date": "2026-10-27",
+   "summary": "Netanyahu’s Likud is the largest party, but his bloc won 53 of 120 seats against 48 for Gadi Eisenkot’s opposition bloc, with Arab parties holding the balance. Netanyahu remains caretaker prime minister during coalition talks.",
+   "src": [
+    [
+     "JNS, final results",
+     "https://jns.org/news/israel-news/right-wing-bloc-wins-israeli-election-with-53-seats-likud-emerges-as-largest-party"
+    ],
+    [
+     "Al-Monitor (Reuters), 28 Oct 2026",
+     "https://www.al-monitor.com/originals/2026/10/netanyahu-set-remain-caretaker-after-inconclusive-israeli-election"
+    ]
+   ]
+  },
+  {
+   "id": "bra-election",
+   "title": "Lula wins a fourth term in Brazil",
+   "type": "election",
+   "region": "Americas",
+   "where": "Brazil",
+   "lon": -47.9,
+   "lat": -15.8,
+   "date": "2026-10-25",
+   "summary": "President Lula da Silva beat Senator Flávio Bolsonaro in the runoff after losing the first round, a first since 1989. Bolsonaro called the result inexplicable and said he would seek to annul it.",
+   "src": [
+    [
+     "Al Jazeera, 26 Oct 2026",
+     "https://aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election"
+    ],
+    [
+     "NPR via OPB, 26 Oct 2026",
+     "https://www.opb.org/article/2026/10/26/in-stunning-victory-brazils-lula-wins-fourth-presidential-term/"
+    ]
+   ]
+  },
+  {
+   "id": "srb-election",
+   "title": "Student list wins Serbian election",
+   "type": "election",
+   "region": "Europe",
+   "where": "Serbia",
+   "lon": 20.46,
+   "lat": 44.8,
+   "date": "2026-11-01",
+   "summary": "The opposition Student List, which grew out of a long protest movement, won about 53% of the vote against 39% for President Vučić’s ruling SNS.",
+   "src": [
+    [
+     "openDemocracy, 6 Nov 2026",
+     "https://www.opendemocracy.net/ten-days-of-elections-around-the-world-may-shape-future-of-climate-debate/"
+    ]
+   ]
+  },
+  {
+   "id": "som-court",
+   "title": "Somali court rules president’s term extension unlawful",
+   "type": "legal",
+   "region": "Africa",
+   "where": "Somalia",
+   "lon": 45.3,
+   "lat": 2.05,
+   "date": "2026-11-05",
+   "summary": "Somalia’s Supreme Court ruled that the federal government unlawfully extended President Hassan Sheikh Mohamud’s term when it adopted a new constitution in March 2026.",
+   "src": [
+    [
+     "Critical Threats Africa File, 12 Nov 2026",
+     "https://www.criticalthreats.org/analysis/fgs-sfc-al-shabaab-somalia-sudan-saf-rsf"
+    ]
+   ]
+  },
+  {
+   "id": "ven-interim",
+   "title": "US and Venezuela’s interim government sign military deal",
+   "type": "leadership",
+   "region": "Americas",
+   "where": "Caracas, Venezuela",
+   "lon": -66.9,
+   "lat": 10.5,
+   "date": "2026-11-18",
+   "summary": "Venezuela has been run by interim authorities under acting President Delcy Rodríguez since US forces seized Nicolás Maduro in January. On 18 November the US defence secretary visited Caracas and signed a deal to restore military ties.",
+   "src": [
+    [
+     "AP, 18 Nov 2026",
+     "https://www.actionnewsjax.com/news/politics/hegseth-is-venezuela/BXYTOHGKTY3DLOMOHNURYQCEWM/"
+    ]
+   ]
+  },
+  {
+   "id": "ssd-vote",
+   "title": "South Sudan elections scheduled",
+   "type": "upcoming",
+   "region": "Africa",
+   "where": "South Sudan",
+   "lon": 31.58,
+   "lat": 4.85,
+   "date": "2026-12-22",
+   "summary": "South Sudan is due to hold its first elections since independence on 22 December, amid renewed fighting and warnings from the UN about rising violence.",
+   "src": [
+    [
+     "Yeni Şafak (AFP), 8 Nov 2026",
+     "https://en.yenisafak.com/world/south-sudan-clashes-kill-23-ahead-of-december-elections-3725314"
+    ]
+   ]
+  }
+ ]
+}

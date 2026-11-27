@@ -1,0 +1,103 @@
+{
+ "updated": "2026-11-27",
+ "note": "Curated items. The map also shows live earthquakes of magnitude 5.5+ from the US Geological Survey.",
+ "items": [
+  {
+   "id": "pan-quake",
+   "title": "Magnitude 7.7 earthquake in Panama",
+   "type": "earthquake",
+   "region": "Americas",
+   "where": "Herrera, Los Santos and Veraguas, Panama",
+   "lon": -80.6,
+   "lat": 7.6,
+   "date": "2026-10-09",
+   "summary": "The strongest quake to hit Panama this century damaged hundreds of homes, schools, roads and bridges, followed by more than 200 aftershocks. One death and 27 injuries were reported; the UN counted about 3,700 people in shelters.",
+   "src": [
+    [
+     "DevelopmentAid, Oct 2026",
+     "https://www.developmentaid.org/news-stream/post/211489/panama-earthquake"
+    ],
+    [
+     "Eastern Herald, 14 Oct 2026",
+     "https://easternherald.com/2026/10/14/panama-earthquake-agency-counts-diverge-shelters-schools/"
+    ]
+   ]
+  },
+  {
+   "id": "ind-arnab",
+   "title": "Cyclone Arnab hits India’s east coast",
+   "type": "storm",
+   "region": "Asia",
+   "where": "Andhra Pradesh and Odisha, India",
+   "lon": 82.2,
+   "lat": 16.7,
+   "date": "2026-10-28",
+   "summary": "Arnab made landfall near Yanam as a very severe cyclonic storm with winds of 125–135 km/h. More than 180,000 people were evacuated; reported deaths range from three to seven as counts continued.",
+   "src": [
+    [
+     "Al Jazeera, 28 Oct 2026",
+     "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh"
+    ],
+    [
+     "Kursiv, 29 Oct 2026",
+     "https://uz.kursiv.media/en/2026-10-29/cyclone-arnab-india-floods/"
+    ]
+   ]
+  },
+  {
+   "id": "bra-storms",
+   "title": "Severe storms in southern Brazil",
+   "type": "storm",
+   "region": "Americas",
+   "where": "Santa Catarina and southern states, Brazil",
+   "lon": -49.5,
+   "lat": -27.3,
+   "date": "2026-11-07",
+   "summary": "Heavy rain, strong winds and hail hit southern Brazil between 5 and 7 November. Santa Catarina recorded 671 storm-related incidents across 76 municipalities in two days.",
+   "src": [
+    [
+     "PAHO, 5 Nov 2026",
+     "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-5-november-2026"
+    ],
+    [
+     "PAHO, 10 Nov 2026",
+     "https://www.paho.org/en/natural-hazards-monitoring/natural-hazards-monitoring-10-november-2026"
+    ]
+   ]
+  },
+  {
+   "id": "khm-floods",
+   "title": "Flash floods across Cambodia",
+   "type": "flood",
+   "region": "Asia",
+   "where": "Cambodia",
+   "lon": 104.9,
+   "lat": 12.6,
+   "date": "2026-11-01",
+   "summary": "Flash floods from heavy rain affected nearly 45,000 families across Cambodia, and more than 3,600 families had to move to higher ground.",
+   "src": [
+    [
+     "GLIDEnumber disaster register",
+     "https://glidenumber.net/glide/public"
+    ]
+   ]
+  },
+  {
+   "id": "pse-floods",
+   "title": "Flooding in Gaza’s displacement camps",
+   "type": "flood",
+   "region": "Middle East",
+   "where": "Gaza Strip",
+   "lon": 34.4,
+   "lat": 31.45,
+   "date": "2026-11-13",
+   "summary": "Winter rains flooded tent camps where most of Gaza’s population lives; Denmark pledged $8.9 million in aid to help with the flooding and the wider humanitarian situation.",
+   "src": [
+    [
+     "Al Jazeera live, 13 Nov 2026",
+     "https://www.aljazeera.com/amp/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks"
+    ]
+   ]
+  }
+ ]
+}
